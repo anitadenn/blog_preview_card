@@ -1,2 +1,30 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+div.attribution{
+    width: 336px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: 12px 8px  rgba(0,0,0,1.0); ;
+}
+svg{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+h3{
+    background-color: hsl(47, 88%, 63%);
+    display: block;
+    width: 50px;
+    height: 36px;
+    text-align: center;
+}
+
+
+
