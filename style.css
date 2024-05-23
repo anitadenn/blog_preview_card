@@ -64,7 +64,6 @@ img{
 
 }
 #grg{
-    display: inline;
     float: left;
     color: hsl(0, 0%, 7%);
     margin-left: 10px;
