@@ -59,5 +59,5 @@ i learned how to use scalable vector graphics for the first time, and really imp
 ## Author
 
 - Github - [Anita Dennis](https://www.github.com/anitadenn)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/anitadenn)
+- Frontend Mentor - [@anitadenn](https://www.frontendmentor.io/profile/anitadenn)
 
