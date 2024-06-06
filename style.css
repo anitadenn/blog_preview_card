@@ -1,73 +1,68 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-body{
-    background-color: hsl(47, 88%, 63%);
-}
-div.attribution{
-    width: 336px;
-    height: 500px;
-    background-color: hsl(0, 0%, 100%);
-    border: 1px solid ;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    width: 340px;
+    margin: auto;
     padding: 15px;
-    box-shadow: 12px 8px  hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px black;
     text-align: left;
 }
-svg{
-    border: 1px solid hsl(0, 0%, 100%);
-    border-radius: 20px;
-}
-#ha{
+body{
     background-color: hsl(47, 88%, 63%);
-    width: 50px;
-    height: 36px;
     text-align: center;
+    font-family: "outfit",sans-serif;
+
+}
+svg{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    position: relative;
 }
 
-/* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 300 to 900 */
+.outfit-1{
+    display: inline-block;
+    border: 1px solid hsl(47, 88%, 63%);
+    padding: 8px;
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+    font-style: bold;
+}
 
-.figtree-sum {
-  font-family: "Figtree", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  
+.figtree-1{
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    color: #000;
+    
 }
-/* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 100 to 900 */
-
-.outfit-lol {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: hsl(0, 0%, 50%);
-}
-.figtree-sum:hover{
-    color: hsl(47, 88%, 63%);;
-}
-#txt{
+div a{
     text-decoration: none;
 }
-#txt:link{
-    color: black;
+.figtree-1:hover{
+    color: hsl(47, 88%, 63%);
 }
-#pub{
-    color: hsl(0, 0%, 7%);
+.outfit-3{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 50%);
+  }
+
+div img{
+    height: 40px;
 }
-img{
-    width: 40px;
-    float: left;
+.outfit-4{
+    text-align: center;
+    padding: 10px;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }
-#grg{
-    float: left;
-    color: hsl(0, 0%, 7%);
-    margin-left: 10px;
-}
-
-
 
