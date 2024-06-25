@@ -37,13 +37,19 @@ svg{
 }
 .publish-date{
     color: hsl(0, 0%, 50%);
-    /* font-size: 16px; */
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
 .course-name{
     font-weight: 800;
     color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 .course-name:hover{
     color: hsl(47, 88%, 63%);
@@ -56,6 +62,7 @@ svg{
     color: hsl(0, 0%, 50%);
     font-size: 16px;
     margin: 20px 0;
+    
 }
 .user{
     display: flex;
@@ -70,6 +77,8 @@ svg{
 .user p{
     font-weight: 800;
 }
+
+
 
 
 
