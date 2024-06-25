@@ -1,79 +1,77 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    border-radius: 15px;
-    border: 1px solid hsl(0, 0%, 7%);
-    width: 340px;
-    height: 480px;
-    margin: auto;
-    margin-top: 200px;
-    padding: 15px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 8px 8px black;
-    text-align: left;
-    margin-bottom: 50px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "outfit";
+
 }
 body{
-    background-color: hsl(47, 88%, 63%);
-    text-align: center;
-    font-family: "outfit",sans-serif;
-
+    background-color: hsl(47, 88%, 63%);;
+}
+.attribution{
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    width: 339px;
+    padding: 18px;
+    border-radius: 15px;
+    margin-top: 217px;
+    margin-bottom: 217px;
 }
 svg{
-    border: 1px solid #fff;
+    border: 1px solid white;
     border-radius: 15px;
-    margin: 0;
-    position: relative;
-    top: 21%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin: auto;
+    text-align: center;
+    
 }
-
-.Learning-tab{
-    display: inline-block;
+.learning-tab{
+    padding: 6px;
+    margin: 15px 0 15px 0;
     border: 1px solid hsl(47, 88%, 63%);
-    padding: 8px;
+    display: inline-block;
     border-radius: 4px;
     background-color: hsl(47, 88%, 63%);
-    font-style: bold;
 }
 .publish-date{
-    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .course-name{
-    font-family: "Arial", sans-serif;
     font-weight: 800;
     color: #000;
-    
-}
-div a{
-    text-decoration: none;
 }
 .course-name:hover{
     color: hsl(47, 88%, 63%);
 }
+.attribution a{
+    text-decoration: none;
+}
+
 .description{
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
     color: hsl(0, 0%, 50%);
-    font-size: 15px;
-  }
-
-div img{
-    height: 40px;
+    font-size: 16px;
+    margin: 20px 0;
 }
-.username{
-    text-align: center;
-    padding: 10px;
-}
-
 .user{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    margin: 0 0 10px 0;
 }
+.user img{
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 
