@@ -17,6 +17,7 @@ body{
     border-radius: 15px;
     margin-top: 217px;
     margin-bottom: 217px;
+    box-shadow: 10px 10px 0 black;
 }
 svg{
     border: 1px solid white;
